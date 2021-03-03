@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.version = '5.0.1'
     s.homepage = "https://github.com/alibaba/handyjson"
     s.name = "HandyJSON"
-
+    s.swift_versions = ['5.1', '5.2', '5.3']
     s.source_files = 'Source/**/*.{swift,h,m}'
     s.source = { :git => 'https://github.com/alibaba/HandyJSON.git', :tag => s.version.to_s }
 
